@@ -1,0 +1,312 @@
+/* --------------------------Variable-------------------------- */
+:root{
+  --text-main-color: #F19820;
+  --text-main-family: 'Noto Sans JP', sans-serif;
+  --text-secondary-color:#4C4C4C;
+    
+}²
+/* --------------------------NavBar-------------------------- */
+
+#navbar-section{
+    padding: 20px;
+    border-bottom: 2px solid var(--text-main-color);
+}
+
+/* --------------------------margins and padding-------------------------- */
+
+.ml-7{
+    margin-left: 80px;
+}
+.mt-7{
+    margin-top: 80px;
+}
+.mb-7{
+    margin-bottom: 80px;
+}
+.mr-7{
+    margin-right: 80px;
+}
+
+.pl-7{
+    padding-left: 80px;
+}
+.pt-7{
+    padding-top: 80px;
+}
+.pb-7{
+    padding-bottom: 80px;
+}
+.pr-7{
+    padding-right: 80px;
+}
+
+/* --------------------------Typographie-------------------------- */
+#main-text{
+    font-size: 38px;
+    font-weight: 400;
+    font-family: var(--text-main-family);
+}
+#orange-text{
+    color:var(--text-main-color);
+}
+#text-about{
+   font-size: 16px;
+    font-family: var(--text-main-family); 
+    font-weight: 400;
+    font-weight: bold;
+    
+}
+footer li{
+    font-family: var(--text-main-family); 
+    font-weight: bold;
+    font-size: 12px;
+}
+.navbar-nav a{
+    font-size: 16px;
+    color:black;
+    font-family: var(--text-main-family); 
+    
+}
+.navbar-nav a:hover{
+    font-size: 16px;
+     color:var(--text-main-color);
+    font-family: var(--text-main-family); 
+    
+}
+.card-box  p{
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--text-main-family); 
+    color: black;
+}
+
+/* --------------------------Section-------------------------- */
+
+.seconde-section{
+     background-color:var(--text-main-color);
+}
+.third-section{
+    background-color:black;
+}
+/* --------------------------Div-------------------------- */
+.service-hosting{
+    margin-top: 20px;
+    
+    padding: 15px;
+     background-color:black;
+
+}
+#image-log{
+    width: 190px;
+    height: 60px;
+}
+.service-name{
+    margin-top: 20px;
+    
+    padding: 15px;
+     background-color:var(--text-main-color);
+
+}
+
+#service-by{
+    text-align: center;
+    width: 25%;
+    border-radius: 15px;
+    background-color: #fff; 
+     font-size: 38px;
+    font-weight: 400;
+    font-family: var(--text-main-family);
+    padding: 15px 0 15px 35px;
+}
+.card-box{
+    width: 20%;
+    margin: 15px;
+    flex-grow: 1;
+    border-radius: 3px;
+    background-color: #fff;
+    
+    padding:20px;
+}
+
+.row-section{
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+/* --------------------------Footer-------------------------- */
+footer{
+    padding-bottom: 20px;
+    font-family: var(--text-main-family); 
+    font-weight: bold;
+    color:#A1A1A1;
+    padding-top: 50px;
+    border-top: 5px solid var(--text-main-color);
+    background-color: black;
+    
+}
+/* --------------------------Button-------------------------- */
+#intro-button{
+    
+    background-color: black;
+    color: var(--text-main-color);
+    border-radius: 15px;
+    padding: 15px 35px 15px 35px;
+    
+}
+.button-intro{
+      padding: 0 200px;
+}
+#service-button{
+    
+    text-align: center;
+    color:#fff;
+     width:60%;
+    border-radius: 15px;
+     background-color: #000;
+    padding: 15px 55px 15px 55px;
+}
+#service-startup
+{   
+    background-color: var(--text-main-color);
+    color: black;
+    border-radius: 15px;
+    padding: 15px 35px 15px 35px;
+}
+#job-button{
+    text-align: center;
+     background-color: var(--text-main-color);
+     width:60%;
+    color: black;
+    border-radius: 15px;
+    padding: 15px 35px 15px 35px;
+}
+#service-button:hover{
+    animation: pulse 0.5s infinite;
+    background-color: #8bc34a;
+    color:#fff;
+    
+}
+#job-button:hover{
+    animation: pulse 0.5s infinite;
+    background-color: #8bc34a;
+    color:#fff;
+    
+}
+#cart-image{
+    background-image: url('img/cart-3x.png');
+}
+#foot-button{
+    border-radius: 15px;
+    background-color: var(--text-main-color);
+    color: black;
+    padding: 10px 15px 10px 15px;
+    font-size: 14px;
+}
+   .navbar-toggler-icon{
+        padding: 15px;
+         background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+/* --------------------------keyframes-------------------------- */
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+		
+	}
+
+	50% {
+		transform: scale(1.1);
+		
+	}
+
+	100% {
+		transform: scale(1);
+		
+	}
+}
+@media only screen and (max-width:768px){
+    
+    .card-box{
+    width: 40%;
+    margin: 15px;
+    flex-grow:1;
+    
+    border-radius: 3px;
+    background-color: #fff;
+}
+    #intro-button{
+    background: url('');
+    font-size: 12px;
+    background-color: black;
+    color: var(--text-main-color);
+    border-radius: 15px;
+  
+    
+}
+    #image-log{
+        height: 50px;width: 120px
+    }
+    #main-text{
+    font-size: 18px;
+        
+    font-weight: 400;
+    font-family: var(--text-main-family);
+}
+    #text-about{
+    font-size: 8px;
+    font-family: var(--text-main-family); 
+    font-weight: 400;
+    font-weight: bold;
+    
+}
+    
+
+    #service-by{
+    text-align: center;
+    width: auto;
+    border-radius: 15px;
+    background-color: #fff; 
+     font-size: 18px;
+    font-weight: 400;
+    font-family: var(--text-main-family);
+    padding: 15px 0 15px 35px;
+}
+    #service-button{
+    
+    text-align: center;
+    color:#fff;
+     width:auto;
+    border-radius: 15px;
+     background-color: #000;
+    padding: 15px 55px 15px 55px;
+}
+    #job-button{
+    text-align: center;
+     background-color: var(--text-main-color);
+     width:auto;
+    color: black;
+    border-radius: 15px;
+    padding: 15px 35px 15px 35px;
+}
+    .card-box  p{
+    text-align: center;
+    font-size: 12px;
+    font-family: var(--text-main-family); 
+    color: black;
+}
+    .collapse{
+        border-radius: 3px;
+        background-color: var(--text-main-color);
+    }
+    li:hover{
+        transition: 0.2s ease-in-out;
+        background-color: #fff;
+        
+    }
+ 
+   
+    #btnbtn{
+        padding: 10px;
+        background-color: var(--text-main-color);
+    }
+}
